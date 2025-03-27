@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Design App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+
+</style>
+
+
+<body>
+    <!-- Navigation Bar -->
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="design.html" class="active">Design</a></li>
+            <li><a href="contect.html">contect</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="design-container">
+    <div class="title">Thumbnail Design</div>
+     <div class="thumbnail">
+        <div class="image-card">
+            <img src="Accidents Thumbnail.jpeg" alt="Thumbnail Design 1">
+            <div class="like-content">
+                <button class="like-btn" onclick="toggleLike(this)">Like</button>
+                <div class="like-count">0 Likes</div>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="42d4fbdd57822284c5f251bfd02505df.jpg" alt="Thumbnail Design 2">
+            <div class="like-content">
+                <button class="like-btn" onclick="toggleLike(this)">Like</button>
+                <div class="like-count">0 Likes</div>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="Hard Challenges Thumbnail.jpeg" alt="Thumbnail Design 3">
+            <div class="like-content">
+                <button class="like-btn" onclick="toggleLike(this)">Like</button>
+                <div class="like-count">0 Likes</div>
+            </div>
+        </div>
+            
+    </div>
+    <div class="title">Reels Cover</div>
+        <div class="reels-cover">
+            <img src="Reels design (1).jpeg" alt="Reels Cover 1">
+            <img src="Reels design.jpeg" alt="Reels Cover 2">
+            <img src="MRS - Pablo Marçal.jpeg" alt="Reels Cover 3">
+    </div>
+    <div class="title">Pwer point slids</div>
+        <div class="slides">  
+            <img src="Untitled design.png" alt="click to show slides" onclick="toggleSlides()" class="slide-img" >
+            <iframe id="slidesFrame" 
+             src="https://docs.google.com/presentation/d/e/2PACX-1vQm3AAV9JpSTgCiXQZ946WCQthnJuXg6GT8o8m-DzvXQ8j46cB2E5Ex-Q5pBtHvLQ/embed?start=false&loop=false&delayms=3000" 
+            frameborder="0" 
+             allowfullscreen>
+            </iframe>
+            <a href="https://youtube.com/shorts/GZXxG0ESjks?si=yasn2TKH1rCV_lGH" target="_blank" onclick="window.open(this.href,'_blank','width=1200,height=800'); return false;">
+                <img src="बीकाजी की ad.png" alt="YouTube short" class="slide-img">
+            </a>
+            
+        </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
